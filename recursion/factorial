@@ -1,6 +1,6 @@
 package recursion;
 
-public class first {
+public class factorial {
     
 //print my name 5 times withot loop
 static void show(int count){
