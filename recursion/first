@@ -1,0 +1,18 @@
+package recursion;
+
+public class first {
+    
+//print my name 5 times withot loop
+static void show(int count){
+    if(count==0)
+        return;//base case
+    System.out.println("riya"+ count);//building
+    
+    show(count-1);//fxn calls itself infinitely withot base case
+    System.out.println("riya" + count);//falling
+    
+}
+public static void main(String args[]){
+    show(5);
+}
+}
